@@ -26,3 +26,10 @@ app.use("/update", require("./Router/updatedata"));
 
 app.use("/insertSeat", require("./Router/insertSeat"));
 
+app.use("/insertModel", require("./Router/insertModel"));
+
+
+app.use("/deleteAircraft", require("./Router/deleteAircraft"))
+
+app.use("/deleteBooking", require("./Router/deleteBooking"))
+
